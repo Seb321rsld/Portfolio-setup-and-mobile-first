@@ -219,6 +219,14 @@ button:active {
   width: 90%;
 }
 
+.headline_icons li:hover {
+  box-shadow: 0 0 6px 5px #c1c7d0;
+}
+
+#menu li {
+  margin-top: 10%;
+}
+
 #contact_form form > ul > li {
   font-size: 15px;
   font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
@@ -260,19 +268,11 @@ li > input {
   list-style: none;
 }
 
-#menu li {
-  margin-top: 10%;
-}
-
 #menu li > a {
   text-decoration: none;
   color: #3a4a42;
   font-size: 32px;
   line-height: 137.5%;
-}
-
-.headline_icons li:hover {
-  box-shadow: 0 0 6px 5px #c1c7d0;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
@@ -309,6 +309,10 @@ li > input {
     justify-content: space-around;
   }
 
+  .section_content_text ul > li {
+    padding: 2%;
+  }
+
   #menu li {
     margin-top: 0%;
   }
@@ -336,10 +340,6 @@ li > input {
   .section_content_text ul {
     flex-wrap: wrap;
     gap: 1vh;
-  }
-
-  .section_content_text ul > li {
-    padding: 2%;
   }
 
   #aboutMe {
