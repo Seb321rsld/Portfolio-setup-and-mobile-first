@@ -44,10 +44,6 @@ li {
   padding: 1%;
 }
 
-.headline_icons li:hover {
-  box-shadow: 0 0 6px 5px #c1c7d0;
-}
-
 #headline {
   display: flex;
   flex-direction: column;
@@ -81,7 +77,7 @@ p {
 }
 
 .headline_button:hover {
-  box-shadow: 0 0px 6px 1px #36b37e;
+  box-shadow: 0 0 6px 1px #36b37e;
 }
 
 .headline_button:active {
@@ -275,6 +271,10 @@ li > input {
   line-height: 137.5%;
 }
 
+.headline_icons li:hover {
+  box-shadow: 0 0 6px 5px #c1c7d0;
+}
+
 @media only screen and (min-width: 375px) and (max-width: 767px) {
   #headline {
     background-image: url("images/header-illsutration-mobile@2x.png");
@@ -358,7 +358,8 @@ li > input {
     flex-direction: column;
   }
 
-  #contact_form ul, p {
+  #contact_form ul,
+  p {
     justify-self: center;
     align-self: center;
   }
